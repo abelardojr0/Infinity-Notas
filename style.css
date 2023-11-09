@@ -1,0 +1,98 @@
+body {
+  background-color: #a8edfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  color: #113a29;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #e4edf6;
+  padding: 30px;
+  border-radius: 20px;
+}
+.divisoria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+.card-item {
+  background-color: #fffaf2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 20px;
+}
+input {
+  margin: 10px 0;
+  border-radius: 8px;
+  outline: none;
+  padding: 5px;
+  border: 2px solid #132615;
+  background-color: #e4edf6;
+}
+
+input:disabled {
+  border-color: grey;
+  background-color: rgb(208, 208, 208);
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #132615;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+select {
+  border: 2px solid #132615;
+  background-color: #e4edf6;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 250px;
+  text-align: center;
+  margin: 10px 0;
+}
+.notas_cadastradas li {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 20px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #a8edfa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
